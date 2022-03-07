@@ -239,8 +239,13 @@ return [
             'url'  => 'calendar',
             'icon' => 'fas fa-fw fa-calendar-alt',
         ],
+        [         
+            'text' => 'Board',
+            'url'  => 'board',
+            'icon' => 'fas fa-fw fa-clipboard',
+        ],
     ],
-/*
+/*The old meny
     'menu' => [
         // Navbar items:
         [
