@@ -51,7 +51,7 @@ Route::get('/events-feed', function () {
             'Start' => "2022-02-23T17:30:00",
             'End' => "2022-02-23-T18:45:00"
     ));
-    Return json_encode($data);
+    return json_encode($data);
     });
     
     
