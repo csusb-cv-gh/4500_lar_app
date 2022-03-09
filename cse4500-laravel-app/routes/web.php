@@ -46,11 +46,11 @@ Route::get(' /board', function () {
 
 Route::get('/events-feed', function () {
     $data = array(
-        
-            'Title' => "CSSSE4500 Class",
+        array(
+            '[Title' => "CSSE4500 Class",
             'Start' => "2022-02-23T17:30:00",
-            'End' => "2022-02-23-T18:45:00"
-        );
+            'End' => "2022-02-23-T18:45:00]"
+        ));
     return json_encode($data);
     });
     
