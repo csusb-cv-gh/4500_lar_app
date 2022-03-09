@@ -7,10 +7,6 @@
     <h1>To Do's</h1>
 @stop
 
-@section('css')
-    <link rel="stylesheet" href="/css/admin_custom.css">
-@stop
-
 @section('content')
 <div class="card">
   <div class="card-body">
