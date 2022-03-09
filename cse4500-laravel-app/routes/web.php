@@ -17,15 +17,15 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/todos', function () {
+Route::get(' /todos', function () {
     return view('todos');
 });
 
-Route::get('/calendar', function () {
+Route::get(' /calendar', function () {
     return view('calendar');
 });
 
-Route::get('/board', function () {
+Route::get(' /board', function () {
     return view('board');
 });
 
